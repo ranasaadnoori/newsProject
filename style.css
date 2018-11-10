@@ -1,0 +1,16 @@
+#container{
+    width: 80%;
+    margin: auto;
+}
+#content{
+    display: flex;
+}
+#content #recent_links{
+flex-grow: 2;
+background-color: red;
+}
+
+#content #most_viewed{
+    flex-grow: 1;
+    background-color: blue;
+}
